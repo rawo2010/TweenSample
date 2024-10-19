@@ -4,7 +4,6 @@ using LitMotion.Extensions;
 
 // Textを使うために必要です
 using UnityEngine.UI;
-using Unity.VisualScripting;
 
 // このスクリプトをアタッチするゲームオブジェクトはTextが必須です
 [RequireComponent(typeof(Text))]
@@ -43,4 +42,3 @@ public class Sample_Easing_LitMotion_3 : MonoBehaviour
             .BindToColor(text);
     }
 }
-
